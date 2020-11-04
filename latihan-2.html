@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Pemrograman Web</title>
+    <style>
+        td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Mahasiswa</h1>
+
+    <form>
+        <label for="name">Nama:</label><br>
+        <input type="text" name="username"><br>
+
+        <br>
+        <label for="pass">NIM:</label><br>
+        <input type="password" name="pass"><br>
+
+        <br>
+        <label for="jenis-kelamin">Jenis kelamin:</label><br>
+        <input type="radio" name="jenis-kelamin" value="laki-laki">Laki Laki<br>
+        <input type="radio" name="jenis-kelamin" value="perempuan">Perempuan<br>
+
+        <br>
+        <label for="jurusan">Jurusan:</label><br>
+        <select name="jurusan">
+            <option disabled selected value></option>
+            <option value="t-informatika">Teknik Informatika</option>
+            <option value="ilmu-komputer">Ilmu Komputer</option>
+            <option value="ilmu-komputer">Arsitektur</option>
+            <option value="ilmu-komputer">Arsitektur Lanskap</option>
+            <option value="ilmu-komputer">Teknik Elektro</option>
+        </select>
+
+        <br><br>
+        <label for="motto">Motto:</label><br>
+        <textarea name="motto" cols="30" rows="10"></textarea>
+
+        <br><br>
+        <input type="submit" value="Submit"><br>
+
+        <br><hr><br>
+        <table border="1" style="width: 50%;">
+            <tr>
+                <td>Nama</td>
+                <td>NIM</td>
+                <td>Jenis Kelamin</td>
+                <td>Jurusan</td>
+                <td>Motto</td>
+            </tr>
+
+            <tr>
+                <td>Dhanny Adhi Pramana</td>
+                <td>118140182</td>
+                <td>Laki-Laki</td>
+                <td>Teknik Informatika</td>
+                <td>Belajar Pemrograman Web itu Asik!</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
