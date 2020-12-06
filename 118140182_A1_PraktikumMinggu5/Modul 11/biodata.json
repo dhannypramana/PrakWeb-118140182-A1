@@ -1,0 +1,32 @@
+{
+    "biodata" : {
+       "nama" : {
+           "first-name" : "Dhanny",
+           "last-name" : "Pramana"
+       },
+      
+       "saudara" : {
+           "nama" : "Ekky"
+       },
+
+       "orangtua" : {
+           "nama" : "Ria Saleh"
+       },
+
+       "hobby" : {
+           "hobi" : ["Melamun","Belajar"]
+       },
+
+       "alamat" : {
+           "Provinsi" : "Lampung",
+           "Kota" : "Bandar Lampung",
+           "Kecamatan" : "Kota Sepang"
+       },
+
+       "social-media" : {
+           "instagram" : "dhannypramana",
+           "github" : "dhannypramana",
+           "line" : "@dhannypramana"
+       }
+    }
+}

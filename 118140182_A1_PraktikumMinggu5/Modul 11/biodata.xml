@@ -1,0 +1,33 @@
+<?xml version="1.0" encode="utf-8"?>
+
+<biodata>
+    <nama>
+        <first-name>Dhanny</first-name>
+        <last-name>Pramana</last-name>
+    </nama>
+
+    <saudara>
+        <nama>Ekky</nama>
+    </saudara>
+
+    <orangtua>
+        <nama>Ria Saleh</nama>
+    </orangtua>
+
+    <hobby>
+        <hobi>Melamun</hobi>
+        <hobi>Belajar</hobi>
+    </hobby>
+
+    <alamat>
+        <provinsi>Lampung</provinsi>
+        <kota>Bandar Lampung<kota>
+        <kecamatan>Kota Sepang</kecamatan>
+    </alamat>
+
+    <social-media>
+        <instagram>dhannypramana</instagram>
+        <github>dhannypramana</github>
+        <line>@dhannyap</line>
+    </social-media>
+</biodata>

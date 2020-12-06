@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>getElemenByName()</h3>
+    <input type="text" name="test">
+    <button onclick="foo()">Klik</button>
+    <script>
+        function foo(){
+            var x = document.getElementsByName("test")[0].tagName;
+            alert(document.getElementsByName("test")[0].value);
+        }
+    </script>
+
+    <h3>getElemenByClassName</h3>
+    <p class="try2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus dolor commodi consequatur aut eaque. Consequatur corporis cumque optio? Dolorem illo iusto beatae qui distinctio delectus porro et sit laudantium quo.</p>
+    <script>
+        var test = document.getElementsByClassName("try2");
+        test[0].style.color = "red";
+    </script>
+
+    <h3>getElementByTagName</h3>
+    <div></div>
+    <button onclick="foop()">Klik</button>
+    <p>Test 1 2 3</p>
+    <script>
+        function foop(){
+            document.getElementsByTagName("P")[1].innerHTML = "Hello, World!";
+        }
+    </script>
+
+    <h3>querySelector()</h3>
+    <p class="qsel">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis totam quaerat impedit vero fugiat voluptate, rem fugit accusantium ullam, eos placeat sequi nostrum qui debitis sed illum dolores officiis obcaecati!</p>
+    <button onclick="fpoo()">Klik</button>
+    <script>
+        function fpoo(){
+            document.querySelector(".qsel").style.backgroundColor = "blue";
+        }
+    </script>
+
+    <h3>querySelectorAll</h3>
+    <p class="qselall">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis totam quaerat impedit vero fugiat voluptate, rem fugit accusantium ullam, eos placeat sequi nostrum qui debitis sed illum dolores officiis obcaecati!</p>
+    <p class="qselall">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis totam quaerat impedit vero fugiat voluptate, rem fugit accusantium ullam, eos placeat sequi nostrum qui debitis sed illum dolores officiis obcaecati!</p>
+
+    <button onclick="poo()">Klik</button>
+    <script>
+    function poo() {
+        var x;
+        x = document.querySelectorAll(".qselall");
+        for (let i = 0; i < x.length; i++) {
+          x[i].style.backgroundColor = "red";
+        }
+      }
+    </script>
+</body>
+</html>
